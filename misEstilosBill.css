@@ -1,0 +1,72 @@
+﻿* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+header, nav, section, article, aside, figure, figcaption, hgroup, footer {
+    display: block;
+}
+h1 {
+    font: bold 20px verdana,sans-serif;
+    text-shadow: rgb(0,0,150) 3px 3px 5px;
+}
+h3{
+    font: bold 14px verdana,sans-serif;
+    padding: 5px;
+}
+#body {
+    text-align:justify;
+}
+#agrupar {
+    width: 960px;
+    height: 1350px;
+    margin: 20px auto;
+    background: -webkit-linear-gradient(top,#0094ff,#ffffff);
+    text-align: left;
+}
+
+#cabecera{
+    background: #0000FF;
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+#menu {
+    background: #ffd800;
+    padding: 5px 30px;
+}
+
+#menu li {
+        display: inline-block;
+        padding: 5px;
+        font: bold 14 px verdana, sans-serif;
+}
+#seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+
+#columna {
+    float: left;
+    width: 150px;
+    margin: 20px 0px;
+    background: #00ff21;
+}
+
+#ple {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #999999;
+}
+
+div {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: rgb(150,150,150) 5px 5px inset;
+}
